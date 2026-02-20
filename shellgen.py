@@ -50,7 +50,7 @@ def main():
     )
     parser.add_argument(
         "-p", "--port",
-        required=True,
+        default="6767",
         help="Port number for packets to be forwarded to"
     )
     parser.add_argument(
